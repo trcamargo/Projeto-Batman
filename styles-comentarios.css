@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+/* Estilo geral */
+body {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    background-color: black;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+/* Seção de Comentários */
+.comments-section {
+    padding: 20px;
+    background-color: #D21617;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-top: 0;
+    color: black;
+}
+
+/* Formulário de Comentários */
+.comment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-form label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.comment-form input,
+.comment-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+}
+
+.comment-form button {
+    padding: 10px;
+    background-color: black;
+    color: #D21617;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.comment-form button:hover {
+    background-color: #555;
+    color: black;
+}
+
+/* Comentários */
+.comments {
+    margin-top: 20px;
+}
+
+.comment {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.comment span {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: black;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    color: #ccc;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
